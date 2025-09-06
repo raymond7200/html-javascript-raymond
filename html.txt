@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore my favorite hobbies: gaming and free diving. Learn why I love both FPS and ocean exploration.">
+  <title>Gaming and Free Diving</title>
+
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+    }
+
+    ul {
+      display: inline-block;
+      text-align: left;
+    }
+
+    button {
+      margin: 10px;
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Favorite Hobbies</h1>
+  <h2>Gaming and Free Diving</h2>
+
+  <p id="myParagraph">Gaming and free diving let me experience excitement both above and below the surface.</p>
+  <button onclick="changeText()">Change Paragraph Text</button>
+
+  <ul id="myList">
+    <li>Playing competitive games like fps</li>
+    <li>Diving in clear ocean waters</li>
+  </ul><br>
+  <button onclick="addListItem()">Add List Item</button>
+
+  <button onclick="removeElement()">Remove an Element</button>
+
+  <img src="Computer.png" alt="A computer setup for gaming" width="300">
+  <img src="Free Diving.jfif" alt="Me Free Diving With GF" width="300">
+
+  <script src="script.js"></script>
+</body>
+</html>
